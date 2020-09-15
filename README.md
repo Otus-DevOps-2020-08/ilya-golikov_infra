@@ -6,9 +6,9 @@ ilya-golikov Infra repository
 
 ## Данные для подключения
 
-`bastion_IP = 84.201.173.102`
+bastion_IP = 84.201.173.102
 
-`someinternalhost_IP = 10.130.0.26`
+someinternalhost_IP = 10.130.0.26
 
 ### Подключение одной командой:
 
