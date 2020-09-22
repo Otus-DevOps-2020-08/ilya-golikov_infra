@@ -2,6 +2,38 @@
 
 ilya-golikov Infra repository
 
+## Задание к лекции 7
+
+### Выполненные действия
+
+- Создана ветка packer-base в репозитории;
+
+- Скрипты с прошлого ДЗ перенесены в config-scripts;
+
+- Установлен Packer;
+
+- Создан сервисный аккаунт, делегированы права, создан и экспортирован account-key;
+
+- Создан шаблон ubuntu16.json для packer;
+
+- Созданы скрипты для provision образа;
+
+- Выполнена проверка шаблона и запущена сборка;
+
+- Исправлена ошибка, из-за которой сборка образа завершалась ошибкой `Build 'yandex' errored: Failed to find instance ip address: instance has no one IPv4 external address.`;
+
+- Создана ВМ на основе собранного образа;
+
+- Установлено и проверено приложение reddit;
+
+- Переменные `service_account_key_file`, `folder_id` и `source_image_family` вынесены в отдельный файл variables.json;
+
+- Добавлены дополнительные опции builder'а: `zone`, `disk_name`,`disk_size_gb` и `image_description`;
+
+- Создан bake образ, с установленным приложением reddit;
+
+- Создан скрипт create-reddit-vm.sh для создания машины с помощью cli;
+
 ## Задание к лекции 6
 
 ### Данные для подключения
