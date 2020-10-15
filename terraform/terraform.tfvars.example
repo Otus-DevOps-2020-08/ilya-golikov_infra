@@ -1,4 +1,4 @@
-service_account_key_file = "./key.json"
+service_account_key_file = "../packer/key.json"
 private_key_path         = "~/.ssh/appuser"
 public_key_path          = "~/.ssh/appuser.pub"
 cloud_id                 = "b1gocmckb11111111111"

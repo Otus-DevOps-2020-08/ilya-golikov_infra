@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-sleep 10
 APP_DIR=${1:-$HOME}
 sudo apt-get install -y git
 git clone -b monolith https://github.com/express42/reddit.git $APP_DIR/reddit
