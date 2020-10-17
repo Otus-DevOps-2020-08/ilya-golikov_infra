@@ -1,0 +1,8 @@
+service_account_key_file = "../packer/key.json"
+private_key_path         = "~/.ssh/appuser"
+public_key_path          = "~/.ssh/appuser.pub"
+cloud_id                 = "b1gocmckb11111111111"
+folder_id                = "b1gdm3eor22222222222"
+zone                     = "ru-central1-a"
+image_id                 = "fd84kc9da33333333333"
+subnet_id                = "e9b2l62ff44444444444"
