@@ -1,0 +1,4 @@
+[reddit_app_group]
+reddit_app ansible_host=84.201.157.109
+[reddit_db_group]
+reddit_db ansible_host=178.154.228.223
