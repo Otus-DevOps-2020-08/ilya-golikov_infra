@@ -3,7 +3,7 @@ terraform {
     endpoint = "storage.yandexcloud.net"
     bucket   = "otus-terraform-state"
     region   = "ru-central1"
-    key      = "terraform.tfstate"
+    key      = "prod/terraform.tfstate"
     access_key  = "access_key"
     secret_key  = "secret_key"
     skip_region_validation      = true
