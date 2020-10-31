@@ -11,4 +11,4 @@ unzip -d ~/bin /tmp/terraform.zip
 curl -L "https://github.com/terraform-linters/tflint/releases/download/v0.20.3/tflint_linux_amd64.zip" -o /tmp/tflint.zip
 unzip -d ~/bin /tmp/tflint.zip
 # install ansible lint
-pip3 install ansible-lint
+pip install ansible-lint
