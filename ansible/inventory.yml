@@ -1,8 +1,8 @@
-reddit_app_group:
+app:
   hosts:
-    reddit_app:
+    appserver:
       ansible_host: 84.201.157.109
-reddit_db_group:
+db:
   hosts:
-    reddit_db:
+    dbserver:
       ansible_host: 178.154.228.223
