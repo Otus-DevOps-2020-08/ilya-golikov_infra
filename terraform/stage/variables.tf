@@ -31,3 +31,9 @@ variable db_disk_image {
   description = "Disk image for reddit db"
   default = "reddit-db-base"
 }
+variable app_instance_name {
+  description = "App Instance name"
+}
+variable db_instance_name {
+  description = "DB Instance name"
+}

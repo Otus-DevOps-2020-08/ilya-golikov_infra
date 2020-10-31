@@ -12,3 +12,6 @@ variable private_key {
   description = "Path to private key, used for connect via ssh"
   default = "~/.ssh/appuser"
 }
+variable instance_name {
+  description = "Instance name"
+}
