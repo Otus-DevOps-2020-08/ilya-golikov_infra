@@ -12,5 +12,5 @@ curl -L "https://github.com/terraform-linters/tflint/releases/download/v0.20.3/t
 unzip -d ~/bin /tmp/tflint.zip
 # install ansible lint
 #sudo pip install cryptography==2.2.2
-#sudo pip install ansible==2.6
+sudo pip install ansible==2.6
 #sudo pip install ansible-lint==3.5.0
