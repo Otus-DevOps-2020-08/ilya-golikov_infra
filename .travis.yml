@@ -7,7 +7,7 @@ before_install:
 install:
 - bash play-travis/install.sh
 script:
-- bash play-travis/travis-checks.sh
+- bash play-travis/travis_checks.sh
 notifications:
   slack:
     rooms:
