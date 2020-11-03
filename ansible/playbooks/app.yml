@@ -1,0 +1,7 @@
+- name: Configure puma
+  hosts: app
+  tags: app-tag
+  become: true
+  roles:
+    - app
+    - jdauphant.nginx

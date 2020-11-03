@@ -2,6 +2,24 @@
 
 ilya-golikov Infra repository
 
+## Задание к лекции 12
+
+- Создана ветка ansible-3;
+
+- Конфигурация db и app теперь в виде ролей;
+
+- Созданы ansible окружения: prod и stage;
+
+- Директория ansible настроена согласно best practics;
+
+- Добавлена роль nginx;
+
+- Добавлен плейбук для создания пользователей, данные с именами и паролями зашифрованы с помощью ansible-vault;
+
+- Динамические inventory настроены для каждого окружения;
+
+- Добавлены скрипты в travis, выполняющие проверки: packer validate, terraform validate, tflint и ansible-lint;
+
 ## Задание к лекции 11
 
 - Создана ветка ansible-2;

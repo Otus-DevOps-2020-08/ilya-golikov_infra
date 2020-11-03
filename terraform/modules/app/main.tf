@@ -1,5 +1,5 @@
 resource "yandex_compute_instance" "app" {
-  name = "reddit-app"
+  name = var.instance_name
 
   labels = {
     tags = "reddit-app"

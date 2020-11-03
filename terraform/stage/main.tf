@@ -15,6 +15,7 @@ module "app" {
   app_disk_image  = var.app_disk_image
   subnet_id        = module.vpc.subnet_id
   database_url    = module.db.internal_ip_address_db
+  instance_name = var.app_instance_name
 }
 
 module "db" {
@@ -22,4 +23,5 @@ module "db" {
   public_key_path = var.public_key_path
   db_disk_image   = var.db_disk_image
   subnet_id        = module.vpc.subnet_id
+  instance_name = var.db_instance_name
 }
