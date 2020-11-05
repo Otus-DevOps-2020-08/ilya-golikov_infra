@@ -1,6 +1,23 @@
+[![Build Status](https://travis-ci.com/Otus-DevOps-2020-08/ilya-golikov_infra.svg?branch=master)](https://travis-ci.com/Otus-DevOps-2020-08/ilya-golikov_infra)
+
 # ilya-golikov_infra
 
 ilya-golikov Infra repository
+
+## Задание к лекции 13
+
+- Создана ветка ansible-4;
+
+- Установлен Vagrant;
+
+- Роли доработаны и протестированы в Vagrant;
+
+- В Vagrantfile добавлена конфигурация, настраивающая nginx;
+
+- Установлена molecule, роль db протестирована с помощью molecule;
+
+- Добавлен тест, проверящий работу mongodb на 27017 порту;
+
 
 ## Задание к лекции 12
 

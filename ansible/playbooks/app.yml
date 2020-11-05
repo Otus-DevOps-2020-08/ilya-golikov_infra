@@ -1,3 +1,4 @@
+---
 - name: Configure puma
   hosts: app
   tags: app-tag
